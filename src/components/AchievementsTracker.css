@@ -1,0 +1,75 @@
+.achievements {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to bottom right, #007bff, #ffffff);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .achievemenst::before {
+    content: '';
+    position: absolute;
+    top: -200px;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    background: #ffffff;
+    border-radius: 50% 50% 0 0;
+  }
+.achievements-tracker {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .progress-bar {
+    margin-top: 50px;
+    height: 10px;
+    background-color: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progress-bar-fill {
+    background-color: #007bff;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .progress-bar-fill.animate {
+    animation: progressAnimation 1s ease forwards;
+  }
+  
+  @keyframes progressAnimation {
+    from {
+      width: 0;
+    }
+  }
+  
+  .progress-bar-icons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .progress-bar-icon {
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .progress-bar-icon.active {
+    color: #007bff;
+    transform: scale(1.5);
+  }
+  
+  .achievements-block {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  

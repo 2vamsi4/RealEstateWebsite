@@ -1,0 +1,40 @@
+.choose-city{
+    padding:15px;
+  }
+
+.product-list {
+    display: flex;
+    flex-wrap:wrap;
+    grid-gap: 20px;
+  }
+  
+  .product-item {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    height:100px;
+    width: 290px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(191, 211, 76, 0.1);
+  }
+  
+  .product-image {
+    width: 70%;
+    height:100%;
+    border-radius: 5px;
+  }
+  
+  .product-details {
+    margin-top: 0px;
+  }
+  
+  .product-name {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .product-price {
+    color: #888;
+    border-bottom: 1px dotted green;
+  }
+ 

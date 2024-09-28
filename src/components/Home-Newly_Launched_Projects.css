@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/nunito/v26/XRXV3I6Li01BKofIOOaBXso.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+.featured-projects-card-list,
+.recently-added-project-card-list,
+.featured-builders-card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured-projects-card-list .slider-wrap,
+.recently-added-project-card-list .slider-wrap,
+.featured-builders-card-list .slider-wrap {
+  padding-bottom: 50px;
+}
+
+.slider-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 2rem;
+}
+
+.slider-wrap .slider-main {
+  transform: translateX(0px);
+  transition: transform 0.5s;
+  display: block;
+  white-space: nowrap;
+}
+
+.featured-projects-card-list .slider-wrap .slider-main .slider-item,
+.recently-added-project-card-list .slider-wrap .slider-main .slider-item,
+.featured-builders-card-list .slider-wrap .slider-main .slider-item {
+  width: 40%;
+  border: 0.5px solid grey;
+  border-radius: 20px;
+  margin-right: 25px;
+}
+
+.slider-wrap .slider-item {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.featured-projects-card-list .featured-projects-card {
+  height: 430px;
+}
+
+.card .property-card {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+  padding: 0px;
+  border-radius: 30px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.featured-projects-card,
+.recently-added-project-card,
+.builder-tab-card.property-card,
+.featured-builders-card {
+  position: relative;
+  margin: 1px 24px 0 1px;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.card .property-card .property-img-container {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+.property-img-container .certified-img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin: 4px 4px;
+  z-index: 1;
+  right: 0;
+  top:10px;
+}
+
+.property-img-container .property-img {
+  position: relative;
+  width: 106%;
+  border-radius: 16px 16px 0 0;
+  height: 200px;
+}
+
+.property-img-container .property-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  border-radius: 8px 8px 0 0;
+  transition: 0.3s ease;
+  opacity: 0.56;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.property-logo {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  z-index: 2;
+  top: 160px;
+}
+
+.property-logo img {
+  height: 50px;
+}
+
+.property-details {
+  padding: 10px 12px 12px 12px;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.property-details .property-details-heading h3 {
+  height: 48px;
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: 600;
+  color: #484848;
+  line-height: 24px;
+}
+
+.property-details p {
+    font-family: 'Nunito';
+  font-size: 16px;
+  color: #707070;
+  line-height: 18px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.property-details ul {
+  list-style: none;
+}
+
+.property-details ul li {
+  font-family: 'Nunito';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 28px;
+  padding: 4px 0px;
+}
+
+.property-details ul li span p {
+  font-family: 'Nunito';
+  font-size: 17px;
+  line-height: 18px;
+  color: black;
+}
+
+.property-details ul li span {
+  font-family: 'Nunito';
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  line-height: 18px;
+  margin-left: 10px;
+}
+
+.property-details .price span p {
+  color: #4caf50;
+}
+
+.property-details .price span {
+  color: #4caf50;
+}
+
+.property-details ul li span {
+  display: block;
+}
+
+.property-details ul li span p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.property-details ul li p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.featured-projects-card-list .featured-projects-card .property-img-container .property-img {
+  height: 180px;
+}
+
+.share-container-prop {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+  padding: 0 8px;
+
+}
+
+.featured-projects-card .share-btn-prop {
+    bottom: 270px;
+    margin-right: 10px;
+}
+
+.share-btn-prop {
+    position: absolute;
+    right: 10px;
+    background: rgba(201, 250, 209, 0.32);
+    padding: 8px;
+    border: 1px solid #049B5A;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-basis: max-content;
+}
+
+.share-container-prop .share-btn-prop img {
+  height: 20px;
+}
+
+.share-container .SocialCard {
+  display: flex;
+}
+
+.share-container .SocialCard .ShareOption a img,
+.share-container .SocialCard .ShareOption img {
+  height: 20px;
+  width: 20px;
+  margin: 4px 4px;
+}
+
+.property-btn-container {
+  display: flex;
+  align-items: center;
+  padding: 0px 12px 8px 12px;
+}
+
+.property-btn-container .btn-primary,
+.property-btn-container .btn-outlined {
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.property-btn-container .btn-primary {
+  height: 32px;
+  width: 100%;
+  border-radius: 4px;
+  background: #4caf50;
+  color: #fff;
+}
+
+.property-btn-container .btn-outlined {
+  height: 32px;
+  width: 32px;
+  border: 1px solid #4caf50;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+
+.property-btn-container .btn-outlined img {
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .featured-projects-card-list .slider-wrap .slider-main .slider-item,
+  .recently-added-project-card-list .slider-wrap .slider-main .slider-item,
+  .featured-builders-card-list .slider-wrap .slider-main .slider-item {
+    width: 100%;
+  }
+}

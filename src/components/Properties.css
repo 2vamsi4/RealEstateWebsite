@@ -1,0 +1,109 @@
+  .properties{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0%;
+  }
+  .ListProp{
+    margin-left: 20px;
+    width: 60%;
+  }
+  .contactBox{
+    margin-right: 10px;
+  }
+
+  .dropdown-container {
+    display: flex;
+    flex-direction: row;
+    height:80%;
+    margin-top: 10px;
+    margin-left: 35px;
+    padding:10px;
+    cursor: default;
+    width:100px;
+  }
+  
+  .dropdown-content {
+    background-color: #f9f9f9;
+    width:80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  
+.form-label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+    top: -4px;
+    left: 5px;
+    font-size: 12px;
+    color: #007bff;
+    background-color: #f9f9f9;
+    padding: 0 5px;
+}
+
+.contact-group {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    margin-left: 5px;
+}
+
+
+.country-code{
+  margin-top: 7px;
+  width:100px;
+}
+.country-code select {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width:25%;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 37%;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.inpt>.form-input-no{
+  width:109%;
+  margin-right: 10px;
+}
+
+.form-input-no:focus + .form-label,
+.form-input-no:not(:placeholder-shown) + .form-label {
+    top: -1px;
+    left: 7px;
+    font-size: 12px;
+    color: #007bff;
+    background-color: #f9f9f9;
+    padding: 0 5px;
+}
+
+  

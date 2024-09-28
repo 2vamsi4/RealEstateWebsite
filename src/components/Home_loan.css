@@ -1,0 +1,166 @@
+.image{
+  height:500px;
+  width: 100%;
+  background-color: rgb(107, 184, 30);
+}
+/* ContentBox.css */
+
+.contact-guide{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.content-box {
+    padding-left: 30px;
+    width: 500px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+  }
+  
+  .content-box h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color:rgb(78, 197, 78);
+  }
+  
+  .content-box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .content-box p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* InputBoxForm.css */
+.form-container {
+  padding-left: 50px;
+  height: 400px;
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.form-container input {
+  height: 35px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-container button {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.definition{
+  height:200px;
+  width: 100%;
+  background-color: #ccc;
+  text-wrap: wrap;
+  margin-bottom: 50px;
+}
+.definition>h1{
+  padding-left: 60px;
+  padding-top: 30px;
+}
+.definition>p{
+  padding-left: 60px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+/* Offers.css */
+.offers-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.offer-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  background-color:plum;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bank-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.offer-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-details h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.offer-details .description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.offer-details .offer {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+.offers>h1{
+  padding-left: 40px;
+}
+

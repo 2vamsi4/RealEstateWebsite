@@ -1,0 +1,528 @@
+.property-card-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.propery-card-listing {
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width:100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.propery-card-listing .card-content {
+    padding-left: 20px;
+    width: calc(100%-300px);
+    justify-content: space-between;
+
+}
+
+.card-img {
+    width: 40%;
+    height: 100%;
+}
+
+.card-img img {
+    display: block;
+    width: 100%;
+    height: 60%;
+}
+
+.builder-logo-name {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.builder-logo-name img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.builder-name p {
+    margin: 0 0 0 10px;
+}
+
+.property-name h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.property-apartment span {
+    font-weight: bold;
+}
+
+.share-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.card-content .property-apartment .share-btn {
+    position: absolute;
+    margin-right: 37px;
+    background: rgba(201, 250, 209, 0.32);
+    padding: 6px;
+    border-radius: 50%;
+    border: 1px solid #049B5A;
+    cursor: pointer;
+    display: flex;
+}
+
+.share-container .share-button{
+    margin-top: 0px;
+    cursor: pointer;
+    height:25px;
+    width:25px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.property_select_btn {
+    text-align: center;
+}
+
+.propery-card-listing .card-content .property_select_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.property_select_btn img {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.location-details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.location-address img {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+.price-table {
+    margin-top: 10px;
+    width:calc(100%-300px);
+    justify-content: space-between;
+}
+
+.typology {
+    display: flex;
+    align-items: center;
+}
+
+.typology img {
+    margin-right: 5px;
+}
+
+.price p {
+    font-weight: bold;
+    margin: 0;
+}
+
+.dropdown-act-btn {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content .price-table div, .card-content .price-table p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.dropdown-act-btn .dropdown-arrow {
+    content: url(https://hfy-factsheet-projects.s3.ap-south-1.amazonaws.com/staticImages/common/icons/Down-white.svg);
+    padding: 18px 7px 19px 10px;
+    background: #000;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 10px;
+}
+
+.propery-card-listing .card-content .nearby-places {
+    background: #fff;
+    display: none;
+    box-shadow: 0px 31px 157px rgba(0, 0, 0, 0.02), 0px 9.34559px 47.3309px rgba(0, 0, 0, 0.04), 0px 3.88168px 19.6588px rgba(0, 0, 0, 0.05), 0px 1.40393px 7.11022px rgba(0, 0, 0, 0.07);
+    padding: 10px;
+    border-radius: 8px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    box-sizing: border-box;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.propery-card-listing .card-content .price-list-dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 0 5px;
+}
+.card-content .price-table div, .card-content .price-table p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+.propery-card-listing .card-content .price-list-dropdown button {
+    border-radius: 30px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.view-phone {
+    border: 1px solid #049B5A;
+    background: #fff;
+    color: #049B5A;
+}
+.nearby-places {
+    display: none;
+}
+
+.dropdown-act-btn:hover .nearby-places {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.price-list-dropdown {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #eaeaea;
+    padding: 15px 0;
+}
+
+.price-list-dropdown .typology {
+    font-weight: bold;
+}
+
+.price-table .price p{
+    color: #049B5A;
+}
+
+.dropdown-act-btn .education-dropdown {
+    border-radius: 8px;
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    border: 1px solid rgba(204, 204, 204, 0.611765);
+    margin: 0 -6px 0 0;
+    z-index: 2;
+    margin-bottom: 10px;
+}
+.view-phone {
+    background: #00aaff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+
+
+.propery-card-listing .card-img .property-img-section {
+    position: relative;
+}
+
+.propery-card-listing .card-img .property-img-section .image {
+    position: relative;
+    margin: 0 0 10px 0;
+    border-radius: 8px;
+    height: 100%;
+    width:100%;
+}
+
+.propery-card-listing .card-img .property-img-section .image .rera {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 10;
+    padding: 10px;
+}
+
+.propery-card-listing .card-img .property-img-section .slider-wrap {
+    max-width: 280px;
+    min-width: 280px;
+}
+
+.slider-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 2rem;
+}
+
+.slider-wrap .slider-main {
+    transform: translateX(0px);
+    transition: transform 0.5s;
+    display: block;
+    white-space: nowrap;
+}
+
+.propery-card-listing .card-img .image .property-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.propery-card-listing .card-img .builder-logo-name {
+    display: flex;
+    align-items: center;
+}
+
+.propery-card-listing .card-img .builder-logo-name img {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.propery-card-listing .card-img .builder-logo-name .builder-name {
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+
+.propery-card-listing .card-img .builder-logo-name .builder-name p:first-child {
+    font-weight: 800;
+}
+
+.propery-card-listing .card-img .builder-logo-name .builder-name p {
+    color: #151e2d;
+}
+
+.propery-card-listing .card-img .builder-logo-name .builder-name p:last-child {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.mobBlock {
+    display: none;
+}
+
+.propery-card-listing .card-content .property-apartment {
+    justify-content: space-between;
+}
+
+.propery-card-listing .card-content .property-apartment,
+.propery-card-listing .card-content .location-details,
+.propery-card-listing .card-content .price-table,
+.propery-card-listing .card-content .offer,
+.propery-card-listing .card-content .possession,
+.propery-card-listing .card-content .read-more,
+.propery-card-listing .card-content .region-experts,
+.propery-card-listing .card-content .nearby-places-list {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.propery-card-listing .card-content .property-apartment div span:first-child {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-content .property-apartment div span:first-child {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.propery-card-listing .card-content .property-apartment div span {
+    font-size: 18px;
+}
+
+.card-content .property-apartment div span {
+    font-size: 14px;
+}
+
+.SocialCard {
+    z-index: 9;
+}
+
+.showSocialCard {
+    display: flex;
+}
+
+.SocialCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: absolute;
+    right: 1%;
+    top: 55px;
+    gap: 30px;
+    z-index: 1;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.32));
+}
+
+.SocialCard .ShareOption {
+    cursor: pointer;
+}
+
+.propery-card-listing .card-content .location-details {
+    align-items: start;
+    position: relative;
+}
+
+.card-content .location-details {
+    font-size: 14px;
+}
+
+.propery-card-listing .card-content .location-details .location-address {
+    display: flex;
+    padding: 5px;
+    max-width: calc(100% - 25%);
+    align-items: center;
+}
+
+.propery-card-listing .card-content .location-details .location-address img {
+    padding: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+}
+
+.propery-card-listing .card-content .location-address p {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.propery-card-listing .card-content .price-table {
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 31px 157px rgba(0, 0, 0, 0.02), 0px 9.34559px 47.3309px rgba(0, 0, 0, 0.04), 0px 3.88168px 19.6588px rgba(0, 0, 0, 0.05), 0px 1.40393px 7.11022px rgba(0, 0, 0, 0.07);
+    padding: 0px 20px 0px 20px;
+    position: relative;
+    gap: 20px;
+}
+
+.nearby-places-list {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.card-content .price-table div, .card-content .price-table p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card-content .price-table{
+    font-weight: 600;
+    font-size: 20px;
+    color:black;
+}
+
+.card-content .price-table .price p{
+    font-size: 16px;
+    font-weight: 600;
+    color:#049B5A;
+}
+
+.card-content .price-table .possession div, .card-content .price-table .read-more div, .card-content .price-table .region-experts div, .card-content .price-table .nearby-places-list div {
+    display: flex;
+}
+
+.card-content .price-table .possession p, .card-content .price-table .read-more p, .card-content .price-table .region-experts p, .card-content .price-table .nearby-places-list p {
+    font-size: 14px;
+}
+
+.propery-card-listing .card-content .possession, .propery-card-listing .card-content .read-more, .propery-card-listing .card-content .region-experts, .propery-card-listing .card-content .nearby-places-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.propery-card-listing .card-content .offer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-content .offer div span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.propery-card-listing .card-content .read-more {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #00aaff;
+    cursor: pointer;
+}
+
+.propery-card-listing .card-content .read-more .arrow {
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #00aaff;
+    border-right: 2px solid #00aaff;
+    transform: rotate(45deg);
+}
+
+.propery-card-listing .card-content .view-phone {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #00aaff;
+    cursor: pointer;
+}
+
+.propery-card-listing .card-content .view-phone img {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+.propery-card-listing .card-content .view-phone span {
+    color: #00aaff;
+}
+
+.propery-card-listing .card-content .price-table {
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 31px 157px rgba(0, 0, 0, 0.02), 0px 9.34559px 47.3309px rgba(0, 0, 0, 0.04), 0px 3.88168px 19.6588px rgba(0, 0, 0, 0.05), 0px 1.40393px 7.11022px rgba(0, 0, 0, 0.07);
+    padding: 0px 0px 0px 20px;
+    position: relative;
+}
+
+.propery-card-listing .card-content .property-apartment, .propery-card-listing .card-content .location-details, .propery-card-listing .card-content .price-table, .propery-card-listing .card-content .offer, .propery-card-listing .card-content .possession, .propery-card-listing .card-content .read-more, .propery-card-listing .card-content .region-experts, .propery-card-listing .card-content .nearby-places-list {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.card-content{
+    width:100%;
+}

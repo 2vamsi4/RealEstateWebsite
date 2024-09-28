@@ -1,0 +1,34 @@
+.side-header{
+    font-family:"Nunito", sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    letter-spacing: 0.2px;
+}
+.side-header>p{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.side-header>p>span{
+        font-weight: 600;
+        font-size: clamp(20px, 2vw, 32px);
+        font-family: 'Nunito', sans-serif;
+        line-height: 44px;
+        border-bottom: 3px solid #F59A00;
+        color: #151e2d8f;
+        text-transform: capitalize;
+        flex-shrink: 0;
+}
+.side-header>p>b{
+    font-weight:1000;
+    font-size: clamp(20px, 2vw, 32px);
+    font-family: 'Nunito', sans-serif;
+    line-height: 44px;
+    padding: 0 0 0 10px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
